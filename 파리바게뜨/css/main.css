@@ -1,0 +1,368 @@
+@charset utf-8;
+
+.msh{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: #023586;
+}
+.mainSlider{
+    margin-top: 20px;
+}
+.mainSlider .slick-dots{
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    bottom: -40px;
+}
+.mainSlider .slick-dots .slick-active{
+    background: #023586;
+}
+.mainSlider .slick-dots li{
+    float: left;
+    border: 2px solid #023586;
+    text-indent: -9999px;
+    width: 30px;
+    height: 2px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.mainSlider .slick-dots button{
+    border: 0;
+    background: none;
+}
+
+.mainSlider .Arrow{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+    top: 50%;
+    margin-top: -20px;
+    cursor: pointer;
+    color: #fff;
+}
+.mainSlider .prevBtn{
+    background: url(../images/common/pbtn.png) no-repeat;
+    left: 20px;
+}
+.mainSlider .nextBtn{
+    background: url(../images/common/nbtn.png) no-repeat;
+    right: 20px;
+}
+.mainSlider a img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/*mainCon01*/
+
+.mainCon01{}
+.mainCon01 h2{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.con01{}
+.con01 li{
+    float: left;
+    margin-right: 60px;
+    position: relative;
+}
+.con01 li:last-child{
+    margin-right: 0;
+}
+.con01Txt{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.con01Txt h3{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin: 40px 0;
+}
+.con01Txt:hover a{
+    text-decoration: underline;
+    color: #fff;
+}
+.con01Txt2{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.con01Txt2 span{
+    color: #fff;
+    font-size: 20px;
+}
+.con01Txt2:hover a{
+    text-decoration: underline;
+    color: #fff;
+}
+
+/*mainCon02*/
+
+.mainCon02{}
+.mainCon02 .msh{
+    margin-bottom: 50px;
+}
+
+.con02{
+    margin: 0 64px;
+}
+.con02 li{
+    width: 400px;
+    float: left;
+    margin-right: 64px;
+}
+.con02 li:last-child{
+    margin-right: 0;
+}
+.con02 li a{}
+.con02 li a img{
+    display: block;
+    width: 100%;
+}
+.con02 li a h4{
+    color: #023586;
+    font-size: 20px;
+    margin:10px 0;
+}
+.con02 li a h3{
+    color: #222;
+    font-size: 24px;
+}
+.con02 li h3:hover{
+    color: darkgreen;
+}
+.con02 li a p{
+    color: #555;
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.con02 li span{
+    font-size: 14px;
+}
+
+.con02 .wp{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*mainCon03*/
+
+.mainCon03{}
+.mainCon03 .msh{
+    margin-bottom: 100px;
+    margin-top: -100px;
+}
+
+.con03{}
+.con03 li{
+    position: relative;
+}
+.con03 li a h3{
+    color: #000;
+    font-size: 18px;
+}
+.con03 li a p{
+    color: #023586;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.con03 .slick-dots{
+    position: absolute;
+    left: 50%;
+    margin-left: -160px;
+    bottom: -70px;
+}
+.con03 .slick-dots .slick-active{
+    background: #023586;
+}
+.con03 .slick-dots li{
+    float: left;
+    border: 2px solid #023586;
+    border-radius: 50px;
+    text-indent: -9999px;
+    width: 15px;
+    height: 15px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+.con03 .slick-dots button{
+    border: 0;
+    background: none;
+}
+
+.con03 .Arrow{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+    top: 50%;
+    margin-top: -45px;
+    cursor: pointer;
+    color: #fff;
+}
+.con03 .prevBtn{
+    background: url(../images/common/pbtn.png) no-repeat;
+    left: 20px;
+}
+.con03 .nextBtn{
+    background: url(../images/common/nbtn.png) no-repeat;
+    right: 20px;
+}
+.con03 a img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.con03 .ing{
+    position: absolute;
+    top: 0;
+    background-color: #023586;
+    color: #fff;
+    padding: 10px;
+}
+
+/*mainCon04*/
+
+.mainCon04{}
+
+.con04{}
+.con04 li{
+    position: relative;
+    margin: 0 20px;
+}
+.con04 li a h3{
+    color: #000;
+}
+.con04 li a p{
+    color: #023586;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
+.con04 .slick-dots{
+    position: absolute;
+    left: 50%;
+    margin-left: -160px;
+    bottom: -70px;
+}
+.con04 .slick-dots .slick-active{
+    background: #023586;
+}
+.con04 .slick-dots li{
+    float: left;
+    border: 2px solid #023586;
+    border-radius: 50px;
+    text-indent: -9999px;
+    width: 15px;
+    height: 15px;
+    margin: 0 4px;
+    cursor: pointer;
+    display: none;
+}
+.con04 .slick-dots button{
+    border: 0;
+    background: none;
+}
+
+.con04 .Arrow{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+    top: 50%;
+    margin-top: -40px;
+    cursor: pointer;
+    color: #fff;
+}
+.con04 .prevBtn{
+    background: url(../images/common/pbtn2.png) no-repeat;
+    left: 20px;
+}
+.con04 .nextBtn{
+    background: url(../images/common/nbtn2.png) no-repeat;
+    right: 20px;
+}
+.con04 a img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.insta{
+    z-index: 9999;
+    text-align: center;
+    margin-top: 40px;
+}
+.insta h3 a{
+    font-size: 24px;
+    color: #000;
+    letter-spacing: 1px;
+}
+.instaP{
+    margin: 10px 0;
+}
+.instaImg{}
+.instaImg span{}
+.instaImg li{
+    margin-top: 20px;
+    width: 320px;
+    height: 320px;
+    float: left;
+}
+.instaTxt{
+    padding-top: 100px;
+}
+
+.ins01{
+    background: url(../images/main/insta1.jpg) no-repeat;
+    transform: scale(1);
+}
+.ins02{
+    background: url(../images/main/insta2.jpg) no-repeat;
+    transform: scale(1);
+}
+.ins03{
+    background: url(../images/main/insta3.jpg) no-repeat;
+    transform: scale(1);
+}
+.ins04{
+    background: url(../images/main/insta4.jpg) no-repeat;
+    transform: scale(1);
+}
+.ins05{
+    background: url(../images/main/insta5.jpg) no-repeat;
+    transform: scale(1);
+}
+.ins06{
+    background: url(../images/main/insta6.jpg) no-repeat;
+    transform: scale(1);
+}
+.ins01:hover, .ins02:hover, .ins03:hover, .ins04:hover, .ins05:hover, .ins06:hover{
+    transform: scale(1.1);
+}
+/*트랜지션으로 주는 배경호버*/
+.ins01 a, .ins02 a, .ins03 a, .ins04 a, .ins05 a, .ins06 a{
+    background: rgba(45,91,121,0);
+    display: block;
+    height: 100%;
+    transition: 1s background;
+}
+.ins01:hover a, .ins02:hover a, .ins03:hover a, .ins04:hover a, .ins05:hover a, .ins06:hover a{
+    background: rgba(45,91,121,0.8);
+}
+.instaTxt{
+    color: rgba(255,255,255,0);
+    font-size: 16px;
+    transition: 0.5s color;
+}
+.ins01:hover .instaTxt, .ins02:hover .instaTxt, .ins03:hover .instaTxt, .ins04:hover .instaTxt, .ins05:hover .instaTxt, .ins06:hover .instaTxt{
+    color: rgba(255,255,255,1);
+}
